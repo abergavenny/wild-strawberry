@@ -1,3 +1,5 @@
 'use strict'
 
-module.export = require('./lib/wild-strawberry')
+module.exports = require('./lib/wild-strawberry')
+
+module.exports.raw = require('./lib/wild-strawberry-raw')
